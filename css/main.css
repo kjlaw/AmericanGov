@@ -1,0 +1,96 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-color: #FFF;
+}
+a img { 
+	border: none;
+}
+a:link {
+	color: #993333;
+	text-decoration: underline;
+}
+a:visited {
+	color: #993333;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	color: #003366;
+	text-decoration: underline;
+}
+.container {
+	width: 1000px;
+	background-color: #cccccc;
+	margin: 0 auto;
+}
+.wrapper {
+	width: 960px;
+	background-color: #FFF;
+	margin: 0 auto;
+} 
+.banner {
+	text-align: center;
+	background-color: #003366;
+	background-image: url(../images/banner.jpg);
+	height: 240px;
+	width: 1000px;
+}
+.nav {
+	height: 45px;
+	width: 970px;
+	text-align: right;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	padding-top: 185px;
+	font-weight: bold;
+}
+.nav table{
+	width: 740px;
+	text-align: center;
+	float: right;
+}
+.nav a:link {
+	color: #FFF;
+	text-decoration: none; 
+}
+.nav a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+.nav a:hover, a:active, a:focus { 
+    color: #003366;
+	text-decoration: none;
+}
+.content {
+	padding-top: 0px;
+	padding-right: 40px;
+	padding-bottom: 0px;
+	padding-left: 40px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+.footer {
+	background-color: #993333;
+	padding: 2px;
+	text-align: center;
+}
+.footerb {
+	background-color:  #cccccc;
+	height: 20px;
+}
+.fltrt {  
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0px;
+}
